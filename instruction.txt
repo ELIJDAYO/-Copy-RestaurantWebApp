@@ -1,0 +1,14 @@
+Section 1
+    pip install qrcode
+    pip install pillow //image processing lib
+
+    pip install django
+    django-admin startproject mysite .
+    python manage.py startapp restaurant_menu
+
+    so 2 directories now
+
+    to run the app, python manage.py runserver
+
+    after filling the models class, python manage.py makemigrations
+    the migration file is created, run "python manage.py migrate" to create sqlite db (viewable via db browser sqlite)
