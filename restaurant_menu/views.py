@@ -8,6 +8,7 @@ class MenuList(generic.ListView):
     template_name = "index.html"
 
     def get_context_data(self, **kwargs):
+        # context is dictionary
         context = super().get_context_data(**kwargs)
         context["meals"] = MEAL_TYPE
 
