@@ -12,3 +12,6 @@ Section 1
 
     after filling the models class, python manage.py makemigrations
     the migration file is created, run "python manage.py migrate" to create sqlite db (viewable via db browser sqlite)
+
+Section 2
+    python manage.py createsuperuser
