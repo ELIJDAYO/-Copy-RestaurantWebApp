@@ -8,7 +8,7 @@ Section 1
 
     so 2 directories now
 
-    to run the app, python manage.py runserver
+    to run the app, python manage.py runserver [port num]
 
     after filling the models class, python manage.py makemigrations
     the migration file is created, run "python manage.py migrate" to create sqlite db (viewable via db browser sqlite)
